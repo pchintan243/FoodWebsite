@@ -3,15 +3,17 @@
 #navbar{
     flex-direction: column;
 }
-#navbar ul li a{
+#navbar .nav .navlist{
     font-size: 1rem;
     padding: 10px 7px;
+    margin: 0.3rem;
 }
 
 /* Home Section */
 #home{
     height: 415px;
     padding: 3px 60px;
+    margin-bottom: 2rem;
 }
 #home::before{
     height: 550px;
@@ -45,12 +47,17 @@
 }
 /* Contact Us for Section */
 
+#contact-box input, #contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+}
+
 /* Footer Section */
 
 /* Utility Section */
 
 .h-primary{
-    font-size: 36px;
+    font-size: 1.5rem;
 }
 .h-secondary{
     font-size: 2.3rem;

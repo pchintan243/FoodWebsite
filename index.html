@@ -8,7 +8,7 @@
     <title>Online food delivery services</title>
     <link rel="stylesheet" href="food.css">
     <link rel="stylesheet" href="button.css">
-    <link rel="stylesheet" href="navbar.css">
+    <!-- <link rel="stylesheet" href="navbar.css"> -->
     <link rel="stylesheet" media="screen and (max-width: 1200px)" href="phone.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 </head>
@@ -16,25 +16,27 @@
 <body>
     <nav id="navbar">
         <div id="logo">
-            <img src="logo/main.png" alt="Delicious.com">
+            <img src="logo/istockphoto-693694672-170667a.jpg" alt="Delicious.com">
         </div>
-        <button class="glow-on-hover" type="button">Home</button>
-        <button class="glow-on-hover" type="button">Services</button>
-        <button class="glow-on-hover" type="button">About</button>
-        <button class="glow-on-hover" type="button">Contact Us</button>
+        <ul class="nav">
+            <li class="navlist">Home</li>
+            <li class="navlist">Services</li>
+            <li class="navlist">Clients</li>
+            <li class="navlist">About</li>
+        </ul>
     </nav>
     <section id="home">
         <h1 class="h-primary">Welcome to my delicious food</h1>
         <p>There is many types of food and meals available.</p>
         <p>Please try to cooperate with us.</p>
-        <button style="--content: 'Order Now';" href="https://twitter.com/kamildyrek">
+        <button style="--content: 'Order Now';">
             <div class="left"></div>
             Order Now
             <div class="right"></div>
         </button>
     </section>
     <section id="service-container">
-        <h1 class="h-primary center">Our Services</h1>
+        <h1 class="h-primary center back-grey">Our Services</h1>
         <div id="services">
             <div class="box">
                 <img src="food/burger.jpg" alt="">
@@ -43,22 +45,22 @@
                     voluptate! Quos reprehenderit id ab numquam sapiente fugiat tenetur repellat!</p>
             </div>
             <div class="box">
-                <img src="food/wrap.jpg" alt="">
+                <img src="food/ryan-concepcion-50KffXbjIOg-unsplash.jpg" alt="">
                 <h2 class="h-secondary center">Bulk Ordering</h2>
                 <p class="center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, obcaecati
                     voluptate! Quos reprehenderit id ab numquam sapiente fugiat tenetur repellat!</p>
             </div>
             <div class="box">
-                <img src="food/pizza.jpg" alt="">
+                <img src="food/istockphoto-1224640603-612x612.webp" alt="">
                 <h2 class="h-secondary center">Food Catering</h2>
                 <p class="center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, obcaecati
                     voluptate! Quos reprehenderit id ab numquam sapiente fugiat tenetur repellat!</p>
             </div>
         </div>
     </section>
-    
+
+    <h1 class="h-primary center back-grey">Our Clients</h1>
     <section id="client-section">
-        <h1 class="h-primary center">Our Clients</h1>
         <div id="clients">
             <div class="client-item">
                 <img src="franchise/buderking.png" alt="">
@@ -74,8 +76,8 @@
             </div>
         </div>
     </section>
+    <h1 class="h-primary center back-grey">Contact Us</h1>
     <secion id="contact">
-        <h1 class="h-primary center">Contact Us</h1>
         <div id="contact-box">
             <form action="">
                 <div class="form-group">
@@ -104,4 +106,5 @@
         </div>
     </footer>
 </body>
+
 </html>
