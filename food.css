@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+
 /* CSS reset */
 *{
     margin: 0px;
@@ -78,7 +80,7 @@ html{
 
 #home::before{
     content: "";
-    background: url('image/lily-banse--YHSwy6uqvk-unsplash.jpg') no-repeat center center/cover;
+    background: url('image/bg1.jpg') no-repeat center center/cover;
     position: absolute;
     height: 550px;
     width: 100%;
@@ -147,7 +149,7 @@ html{
 #client-section::before{
     content: "";
     position: absolute;
-    background: url('image/rachel-park-hrlvr2ZlUNk-unsplash.jpg') no-repeat center center/cover;
+    background: url('image/bg2.jpg') no-repeat center center/cover;
     width: 100%;
     height: 100%;
     z-index: -1;
@@ -166,7 +168,7 @@ html{
     position: absolute;
     width: 100%;
     height: 100%;
-    background: url('image/julian-hochgesang-Dkn8-zPIbwo-unsplash.jpg') no-repeat center center/cover;
+    background: url('image/bg3.jpg') no-repeat center center/cover;
     z-index: -1;
     /* opacity: 0.8; */
     margin: 0.5rem 0;
@@ -176,7 +178,7 @@ html{
     justify-content: center;
     align-items: center;
     padding-bottom: 34px;
-    margin: 1rem 0;
+    margin: 1rem 0 0 0;
 }
 #contact-box input, #contact-box textarea{
     width: 100%;
@@ -192,6 +194,7 @@ html{
     margin: 1.5rem 0;
 }
 #contact-box label{
+    font: bolder;
     color: darkslategray;
     font-size: 1.4rem;
 }
@@ -204,6 +207,7 @@ footer{
 .h-primary{
     padding: 1rem;
     font-size: 3.5rem;
+    font-family: 'PT Serif', serif;
 }
 .h-secondary{
     font-size: 2.8rem;
