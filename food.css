@@ -120,6 +120,7 @@ html{
     padding: 13px;
     border-radius: 20px;
     background-color: rgb(110 110 110 / 35%);
+    /* width: 30%; */
 }
 
 #services .box img{
