@@ -1,40 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
 
 /* CSS reset */
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
 /* CSS Variables */
-:root{
+:root {
     --navbar-height: 59px;
 }
 
 /* logo and image */
-#logo{
+#logo {
     margin: 0px 11px;
 }
 
-#logo img{
+#logo img {
     margin: 12px;
     height: 50px;
 }
 
 /* Navigation Bar */
-#navbar{
+#navbar {
     display: flex;
     align-items: center;
-    font-family:Verdana;
+    font-family: Verdana;
     position: sticky;
     top: 0px;
 }
 
-#navbar::before{
+#navbar::before {
     content: "";
     background-color: #73737363;
     position: absolute;
@@ -51,7 +51,7 @@ html{
 }
 
 /* List styling */
-#navbar .nav .navlist  {
+#navbar .nav .navlist {
     margin: 0.5rem;
     cursor: pointer;
     list-style: none;
@@ -73,7 +73,7 @@ html{
 }
 
 /* Home Section */
-#home{
+#home {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,7 +82,7 @@ html{
     height: 500px;
 }
 
-#home::before{
+#home::before {
     content: "";
     background: url('image/bg1.jpg') no-repeat center center/cover;
     position: absolute;
@@ -94,59 +94,60 @@ html{
     left: 0;
 }
 
-#home h1{
+#home h1 {
     color: rgb(225, 225, 225);
     text-align: center;
     /* font-size: 3.5rem; */
     font-family: 'Baloo Thambi 2', cursive;
-    
+
 }
 
-#home p{
+#home p {
     color: white;
     text-align: center;
     font-size: 1.5rem;
 }
 
 /* Services Section */
-#services{
+#services {
     margin: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#services .box{
+#services .box {
     border: 3px solid black;
     margin: 15px;
     padding: 13px;
     border-radius: 20px;
     background-color: rgb(110 110 110 / 35%);
-    /* width: 30%; */
+    width: 30%;
+    height: 465px;
 }
 
-#services .box img{
+#services .box img {
     height: 155px;
     display: block;
     margin: auto;
 }
 
-#services .box h2{
+#services .box h2 {
     color: rgb(61 61 61);
 }
 
-#services .box .center{
+#services .box .center {
     font-family: 'Baloo Thambi 2', cursive;
 }
 
 /* Clients Section */
-#client-section{
+#client-section {
     /* height: 400px; */
     position: relative;
     margin: 1.5rem 0;
 }
 
-#client-section::before{
+#client-section::before {
     content: "";
     position: absolute;
     background: url('image/bg2.jpg') no-repeat center center/cover;
@@ -156,26 +157,26 @@ html{
     opacity: 0.9;
 }
 
-#clients{
+#clients {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.client-item{
+.client-item {
     padding: 34px;
 }
 
-#client img{
+#client img {
     height: 200px;
 }
 
 /* Contact Section */
-#contact{
+#contact {
     position: relative;
 }
 
-#contact::before{
+#contact::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -186,7 +187,7 @@ html{
     margin: 0.5rem 0;
 }
 
-#contact-box{
+#contact-box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -194,18 +195,19 @@ html{
     margin: 1rem 0 0 0;
 }
 
-#contact-box form{
+#contact-box form {
     width: 30%;
     margin: 1.5rem 0;
 }
 
-#contact-box label{
+#contact-box label {
     font: bolder;
     color: white;
     font-size: 1.4rem;
 }
 
-#contact-box input, #contact-box textarea{
+#contact-box input,
+#contact-box textarea {
     width: 100%;
     padding: 0.5rem;
     border-radius: 20px;
@@ -215,30 +217,36 @@ html{
     text-align: center;
 }
 
-footer{
+footer {
     background: black;
     color: white;
     padding: 5px 20px;
 }
 
 /* Utility Classes */
-.h-primary{
+.h-primary {
     padding: 1rem;
     font-size: 3.5rem;
     font-family: 'PT Serif', serif;
 }
 
-.h-secondary{
+.h-secondary {
     font-size: 2.8rem;
     padding: 12px;
     font-family: unset;
 }
 
-.center{
+.center {
     text-align: center;
 }
 
 .back-grey {
     background-color: rgba(91, 91, 91, 0.345);
     color: #000000;
+}
+
+@media (max-width: 800px) {
+    #contact-box form {
+        width: 70%;
+    }
 }
