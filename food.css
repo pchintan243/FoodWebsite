@@ -122,8 +122,8 @@ html {
     padding: 13px;
     border-radius: 20px;
     background-color: rgb(110 110 110 / 35%);
-    width: 30%;
-    height: 465px;
+    /* width: 60%; */
+    /* height: 460px; */
 }
 
 #services .box img {
@@ -167,8 +167,9 @@ html {
     padding: 34px;
 }
 
-#client img {
+#clients img {
     height: 200px;
+    width: 100%;
 }
 
 /* Contact Section */

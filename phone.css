@@ -31,6 +31,8 @@
     padding: 14px;
     margin: 3px 15px;
     margin-bottom: 9px;
+    /* width: 80%; */
+    /* height: 500px; */
 }
 #services .box img{
     height: 95px;
@@ -42,9 +44,9 @@
 }
 #clients img{
     width: 100px;
-    height: 200px;
     padding: 0px 5px;
 }
+
 /* Contact Us for Section */
 
 #contact-box input, #contact-box textarea{
